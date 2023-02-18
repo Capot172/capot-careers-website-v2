@@ -1,3 +1,4 @@
-Flask~=2.2.3
+Flask
 gunicorn
-SQLAlchemy~=2.0.4
+SQLAlchemy
+pymysql
