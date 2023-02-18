@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7cc87bf-440f-4cde-9256-09b168fb1de7" name="Changes" comment="Made some changes">
-      <change afterPath="$PROJECT_DIR$/templates/banner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job_page.html" afterDir="false" />
+    <list default="true" id="e7cc87bf-440f-4cde-9256-09b168fb1de7" name="Changes" comment="Dynamic pages for each job">
+      <change afterPath="$PROJECT_DIR$/templates/application_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/application_submitted.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676684372192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dynamic pages for each job">
+      <created>1676726602542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676726602542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some changes" />
+    <MESSAGE value="Dynamic pages for each job" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic pages for each job" />
   </component>
 </project>
