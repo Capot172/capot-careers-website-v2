@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<!--Phần đầu-->
+
+<head>
+    <title>Sign in</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<style>
+    input::-ms-reveal,
+    input::-ms-clear {
+      display: none;
+    }
+    </style>
+
+<!-- Phần thân -->
+
+<body>
+    <div class="parent">
+
+        <div class="child">
+
+            <div class="logo">
+                <!-- <img class="img" alt="Picture ATech Digital" src="image.png"> -->
+            </div>
+
+            <div class="line_center"></div>
+
+            <form class="sign_in_div">
+                <h1 class="sign_in">Welcome</h1>
+
+                <div class="line"></div>
+
+
+                <!-- <form action=""> -->
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Email" name="email" id='email'
+                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" />
+                    <label for="email" class="form__label">Email</label>
+                </div>
+
+                <div class="form__group field">
+
+                    <div class="password">
+                        <input type="password" class="form__field" placeholder="Password" name="password" id='password'
+                            required />
+                        <label for="password" class="form__label">Password</label>
+                        <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    </div>
+
+                </div>
+
+                <a href="/Project/ForgotPassword/index.html" class="forgot">Forgot password?</a>
+
+                <input id="button_sign_in" type="submit" value="Sign in" title="Sign in" />
+
+                <!-- </form> -->
+
+
+                <p class="sign_up">
+                    Not a member?
+                    <span><a href="/Project/SignUp/index.html">Sign up</a></span>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+
+    <script src="./sign_in.js"></script>
+
+</body>
+
+</html>

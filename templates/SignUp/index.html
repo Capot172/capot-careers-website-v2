@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    
+    <title>Sign up</title>
+</head>
+
+<style>
+    input::-ms-reveal,
+    input::-ms-clear {
+      display: none;
+    }
+    </style>
+
+<body>
+    <div class="parent">
+        <div class="child">
+
+            <div class="logo">
+                <!-- <img class="img" alt="Picture ATech Digital" src="image.png"> -->
+            </div>
+
+            <form class="sign_up_div">
+                <label id="sign_up">Sign up</label>
+                <div class="layout_input">
+
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Email" name="email"
+                            id='email' required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" />
+                        <label for="email" class="form__label">Email</label>
+                    </div>
+
+                    <div class="form__group field password">
+                        <input type="password" class="form__field" placeholder="Password" name="password" 
+                            id='password' required />
+                        <label for="password" class="form__label">Password</label>
+                        <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    </div>
+
+                    <div class="form__group field password">
+                        <input type="password" class="form__field" placeholder="Confirm password" name="confirm_password" 
+                            id='confirm_password' required />
+                        <label for="confirm_password" class="form__label">Confirm password</label>
+                        <i class="bi bi-eye-slash" id="togglePassword2"></i>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" id="check">
+                        <label for="check">I have read and agree to
+
+                            <span>
+                                <a class="terms_class" href="">the terms.</a>
+                            </span>
+                        </label>
+                    </div>
+                    <input type="submit" id="btn_register" value="Sign up now">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="sign_up.js"></script>
+</body>
+
+</html>
